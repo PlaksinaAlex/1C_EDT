@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcee401d-fa07-4367-81d2-2857d45ff408">
+  <producedTypes>
+    <objectType typeId="aa3410cf-1d3b-49c8-8944-b1c353241a3f" valueTypeId="e3373a68-ec56-42f7-b52d-93ef512dad5a"/>
+    <refType typeId="4ef54b61-545a-4bf0-a235-09f890ca4dcd" valueTypeId="09d2c627-1050-4068-aede-1e9a0c117cc5"/>
+    <selectionType typeId="93bba35a-68e7-4f33-8c8a-bdd163cd84aa" valueTypeId="86f2e6c5-f00a-4a3e-adf7-0561147dac8b"/>
+    <listType typeId="49d6c854-38ad-49c2-8a9f-2ea433c03ae0" valueTypeId="7d2cdb74-cd86-48f6-9a81-c0164e23d7eb"/>
+    <managerType typeId="f1188619-c853-4d43-a24c-20fe9a68e4a7" valueTypeId="929434cb-290b-4201-8cda-797a44cdf79f"/>
+  </producedTypes>
+  <name>newmail</name>
+  <synonym>
+    <key>ru</key>
+    <value>Newmail</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.newmail.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.newmail.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
